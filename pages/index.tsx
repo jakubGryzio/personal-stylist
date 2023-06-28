@@ -3,7 +3,7 @@ import Head from "next/head";
 import Image from "next/image";
 
 const Home: NextPage = () => {
-  return <h1>Hello World!</h1>;
+  return <h2>УСТИНА СКРИПЕЦЬ</h2>;
 };
 
 export default Home;
