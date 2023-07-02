@@ -1,0 +1,52 @@
+.intro__image {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: -9999;
+}
+
+.intro__title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 16rem;
+  row-gap: 0.5rem;
+}
+
+.intro__name {
+  display: flex;
+  flex-direction: column;
+  width: max-content;
+  text-align: right;
+  margin-left: -120px;
+}
+
+.intro__name h1 {
+  text-align: right;
+  font-size: 5.625rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.intro__title p {
+  font-size: 1.65rem;
+  color: #d39c50;
+  font-family: Academy;
+}
+
+.intro__descritpion {
+  width: 20.39281rem;
+  height: 4.26681rem;
+  margin-left: 120px;
+  margin-bottom: -220px;
+}
+
+.intro__descritpion p {
+  font-size: 1.1875rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 200;
+  line-height: normal;
+}
