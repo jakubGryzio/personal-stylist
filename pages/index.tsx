@@ -1,9 +1,13 @@
 import type { NextPage } from "next";
-import Head from "next/head";
-import Image from "next/image";
+import { Fragment } from "react";
+import Intro from "../components/Intro/Intro";
 
 const Home: NextPage = () => {
-  return <h2>УСТИНА СКРИПЕЦЬ</h2>;
+  return (
+    <Fragment>
+      <Intro />
+    </Fragment>
+  );
 };
 
 export default Home;
