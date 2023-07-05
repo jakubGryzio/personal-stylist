@@ -7,7 +7,7 @@ import { Col, Container, Row } from "reactstrap";
 
 const Intro: NextPage = () => {
   return (
-    <Fragment>
+    <section className={`${classes.section}`}>
       <Image
         className={`${classes.intro__image}`}
         priority
@@ -16,7 +16,7 @@ const Intro: NextPage = () => {
       />
       <Container>
         <Row>
-          <Col className="d-flex align-items-end">
+          <Col lg="6" md="6" className="d-flex align-items-end">
             <div className={`${classes.intro__descritpion}`}>
               <p>
                 вирішу всі ваші гардеробні проблеми та допоможу знайти гармонію
@@ -24,7 +24,7 @@ const Intro: NextPage = () => {
               </p>
             </div>
           </Col>
-          <Col>
+          <Col lg="6" md="6">
             <div className={`${classes.intro__title}`}>
               <div className={`${classes.intro__name}`}>
                 <h1>УСТИНА</h1>
@@ -35,7 +35,7 @@ const Intro: NextPage = () => {
           </Col>
         </Row>
       </Container>
-    </Fragment>
+    </section>
   );
 };
 

@@ -1,0 +1,46 @@
+.section {
+  background: #2d2814;
+  padding-top: 12.81rem !important;
+}
+
+.about__image {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 70px;
+}
+
+.about__list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 9.56rem;
+}
+
+.about__list ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.about__list ul li {
+  padding-left: 2em;
+  text-indent: -2em;
+  color: #e3e3c5;
+  font-size: 1.1875rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2.5rem;
+}
+
+.about__list span {
+  color: #d39c50;
+}
+
+.about__list h1 {
+  color: #e3e3c5;
+  font-size: 3.4375rem;
+  font-family: Academy;
+  font-style: normal;
+  line-height: 2.3125rem;
+}

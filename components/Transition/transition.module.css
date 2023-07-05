@@ -1,0 +1,47 @@
+.section {
+  background: linear-gradient(180deg, #7c401b 52%, #2d2814 52%);
+  padding-top: 17.25rem !important;
+}
+
+.row {
+  margin-bottom: 320px;
+  position: relative;
+}
+
+.row h1 {
+  color: #e3e3c5;
+  text-align: center;
+  font-family: Academy;
+  font-size: 4.5rem;
+  line-height: 6rem;
+}
+
+.image__nw {
+  position: absolute;
+  top: -12.94rem;
+  left: 15.44rem;
+}
+
+.image__ne {
+  position: absolute;
+  top: -18.94rem;
+  right: 15.44rem;
+}
+
+.image__sw {
+  position: absolute;
+  bottom: -8.94rem;
+  left: 14.44rem;
+}
+
+.image__se {
+  position: absolute;
+  bottom: -5.94rem;
+  right: 14.44rem;
+}
+
+.image__arrow {
+  position: absolute;
+  left: 48%;
+  top: 155%;
+}

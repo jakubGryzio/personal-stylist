@@ -1,3 +1,7 @@
+.section {
+  height: 63.33rem;
+}
+
 .intro__image {
   position: absolute;
   left: 0;
