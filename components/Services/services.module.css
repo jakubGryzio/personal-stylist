@@ -3,10 +3,73 @@
   padding-top: 10rem !important;
 }
 
+.section h1 {
+  margin-bottom: 3.87rem;
+  color: #d39c50 !important;
+  font-family: Academy;
+  font-size: 4.375rem;
+  line-height: 4.375rem;
+}
+
+.image {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-right: -110px;
+  row-gap: 2.25rem;
+}
+
+.description ul {
+  margin-top: 0.56rem;
+}
+
 .description li {
   color: #e3e3c5;
+  font-family: Montserrat;
+  font-size: 1.1875rem;
+  font-weight: 300;
+  line-height: normal;
+  margin-bottom: 1.7rem;
 }
 
 .description h2 {
   color: #d39c50 !important;
+  font-family: Academy;
+  font-size: 2.25rem;
+  line-height: 4.375rem;
+}
+
+.footer {
+  height: 22.875rem;
+  background: #7c401b;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer h2 {
+  color: #35220c !important;
+  font-family: Academy;
+  font-size: 2.25rem;
+  line-height: 4.375rem;
+}
+
+.footer li {
+  color: #e3e3c5;
+  font-family: Montserrat;
+  font-size: 1.1875rem;
+  font-weight: 300;
+  line-height: normal;
+  margin-bottom: 1.7rem;
+}
+
+.footer p {
+  color: #35220c;
+  font-family: Montserrat;
+  font-size: 1.4375rem;
+  font-weight: 700;
+  line-height: normal;
+  width: max-content;
+  margin-top: 20px;
 }
