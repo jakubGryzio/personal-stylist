@@ -9,7 +9,7 @@ import { SlideProps } from "../../interfaces/slideProps";
 
 const Header = ({ toggleSlide }: SlideProps) => {
   return (
-    <header className={`${classes.header}`}>
+    <header className={`${classes.header} ${classes.header__sticky}`}>
       <Container>
         <div className={`${classes.nav__wrapper}`}>
           <div className={`${classes.name}`}>

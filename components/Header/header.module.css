@@ -6,6 +6,9 @@
   overflow: hidden;
   background: rgba(45, 40, 20, 0.71) !important;
   z-index: 999;
+}
+
+.header__sticky {
   position: fixed;
 }
 
