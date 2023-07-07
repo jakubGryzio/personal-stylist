@@ -5,7 +5,8 @@
   line-height: 90px;
   overflow: hidden;
   background: rgba(45, 40, 20, 0.71) !important;
-  z-index: 9999;
+  z-index: 999;
+  position: fixed;
 }
 
 .nav__wrapper {
@@ -53,6 +54,7 @@
   width: 100%;
   height: 100%;
   background: #2d2814;
+  z-index: 9999;
 }
 
 .navigation {

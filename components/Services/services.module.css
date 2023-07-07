@@ -1,6 +1,7 @@
 .section {
   background: #2d2814;
-  padding-top: 10rem !important;
+  padding-top: 9.62rem !important;
+  padding-bottom: 2rem !important;
 }
 
 .section h1 {
@@ -16,11 +17,15 @@
   align-items: center;
   flex-direction: column;
   margin-right: -110px;
-  row-gap: 2.25rem;
+  row-gap: 3rem;
+}
+.description {
+  margin-top: 20px;
 }
 
 .description ul {
   margin-top: 0.56rem;
+  padding-right: 180px;
 }
 
 .description li {
@@ -28,7 +33,7 @@
   font-family: Montserrat;
   font-size: 1.1875rem;
   font-weight: 300;
-  line-height: normal;
+  line-height: 1.6rem;
   margin-bottom: 1.7rem;
 }
 
@@ -40,12 +45,15 @@
 }
 
 .footer {
-  height: 22.875rem;
+  height: 21.8rem;
   background: #7c401b;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+}
+
+.row {
+  margin-left: 11.37rem;
 }
 
 .footer h2 {
@@ -72,4 +80,11 @@
   line-height: normal;
   width: max-content;
   margin-top: 20px;
+}
+
+.footer__image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-right: 140px;
 }

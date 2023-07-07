@@ -1,6 +1,6 @@
 import React from "react";
 import { Col, Container, Row } from "reactstrap";
-import footer from "../../public/images/wardrobe_1.jpg";
+import footer from "../../public/images/footer.jpg";
 import Image from "next/image";
 import classes from "./services.module.css";
 
@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <footer className={`${classes.footer}`}>
       <Container>
-        <Row>
+        <Row className={`${classes.row}`}>
           <Col lg="6" md="6">
             <h2>КОНСУЛЬТАЦІЯ</h2>
             <ul>
@@ -24,8 +24,8 @@ const Footer = () => {
               </li>
             </ul>
           </Col>
-          <Col lg="6" md="6">
-            {/* <Image src={footer} alt="Footer" priority /> */}
+          <Col lg="6" md="6" className={`${classes.footer__image}`}>
+            <Image src={footer} alt="Footer" priority />
           </Col>
         </Row>
       </Container>
