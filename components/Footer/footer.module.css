@@ -1,0 +1,16 @@
+.footer {
+  background: #2d2814;
+  border-top: 1px solid #d39c50;
+}
+
+.footer__copyright p {
+  text-align: center;
+  font-size: 0.85rem;
+  padding-top: 15px;
+}
+
+@media only screen and (max-width: 768px) {
+  .footer__top {
+    display: none;
+  }
+}
