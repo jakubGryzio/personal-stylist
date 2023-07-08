@@ -6,6 +6,7 @@ import tikTokIcon from "../../public/tiktok.svg";
 import instagramIcon from "../../public/instagram.svg";
 import menuIcon from "../../public/menu.svg";
 import { SlideProps } from "../../interfaces/slideProps";
+import Link from "next/link";
 
 const Header = ({ toggleSlide }: SlideProps) => {
   return (
@@ -18,13 +19,37 @@ const Header = ({ toggleSlide }: SlideProps) => {
           </div>
           <div className={`${classes.nav__menu}`}>
             <div className="d-flex alin-items-center bg-transparent gap-3 mb-0">
-              <Image priority src={telegramIcon} alt="Follow me on Telegram" />
-              <Image priority src={tikTokIcon} alt="Follow me on TikTok" />
-              <Image
-                priority
-                src={instagramIcon}
-                alt="Follow me on Instagram"
-              />
+              <Link
+                href="https://t.me/ustynaskrypets"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <Image
+                  className={`${classes.up}`}
+                  priority
+                  src={telegramIcon}
+                  alt="Follow me on Telegram"
+                />
+              </Link>
+              <Link
+                className={`${classes.scale}`}
+                href="https://www.tiktok.com/@ustyna.skrypets"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <Image priority src={tikTokIcon} alt="Follow me on TikTok" />
+              </Link>
+              <Link
+                href="https://www.instagram.com/ustyna.skrypets?igshid=Y2IzZGU1MTFhOQ=="
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <Image
+                  priority
+                  src={instagramIcon}
+                  alt="Follow me on Instagram"
+                />
+              </Link>
             </div>
             <div className={`${classes.menu}`}>
               <Image

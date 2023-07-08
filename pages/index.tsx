@@ -5,6 +5,7 @@ import About from "../components/About/About";
 import Values from "../components/Values/Values";
 import Transition from "../components/Transition/Transition";
 import Services from "../components/Services/Services";
+import Contact from "../components/Contact/Contact";
 
 const Home: NextPage = () => {
   return (
@@ -14,6 +15,7 @@ const Home: NextPage = () => {
       <Values />
       <Transition />
       <Services />
+      <Contact />
     </Fragment>
   );
 };

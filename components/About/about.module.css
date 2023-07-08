@@ -6,7 +6,7 @@
 .about__image {
   display: flex;
   justify-content: flex-end;
-  padding-right: 70px;
+  padding-right: 60px;
 }
 
 .about__list {

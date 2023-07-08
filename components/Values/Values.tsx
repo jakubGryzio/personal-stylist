@@ -8,7 +8,7 @@ const Values = () => {
     <section className={`${classes.section}`}>
       <Container>
         <Row>
-          <Col lg="6" md="6" className={`${classes.values__list}`}>
+          <Col lg="7" md="6" className={`${classes.values__list}`}>
             <div className={`${classes.values__list_title}`}>
               <h1>МОЇ ЦІННОСТІ У РОБОТІ З ВАМИ </h1>
             </div>
@@ -40,9 +40,9 @@ const Values = () => {
             </ol>
           </Col>
           <Col
-            lg="6"
+            lg="5"
             md="6"
-            className="d-flex justify-content-center align-items-center mb-5"
+            className="d-flex justify-content-start align-items-center mb-5"
           >
             <Image src={values} alt="My values" priority />
           </Col>

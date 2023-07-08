@@ -10,7 +10,7 @@ body {
 
 a {
   color: unset;
-  text-decoration: none;
+  text-decoration: none !important;
 }
 
 * {
@@ -36,12 +36,6 @@ section {
   padding-bottom: 9.69rem;
 }
 
-/* footer {
-  padding-bottom: 10px;
-  padding-top: 60px;
-  border-top: 1px solid #e3e3c5;
-} */
-
 ::-webkit-scrollbar {
   width: 10px;
   background: #2d2814;
@@ -50,6 +44,15 @@ section {
 ::-webkit-scrollbar-thumb {
   border-radius: 2em;
   background: #d39c50;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  transition: background-color 5000s ease-in-out 0s;
+  -webkit-text-fill-color: #e3e3c5 !important;
+  -webkit-text-size-adjust: 1rem;
 }
 
 @media (prefers-color-scheme: dark) {

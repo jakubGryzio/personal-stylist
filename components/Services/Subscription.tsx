@@ -9,7 +9,7 @@ import Footer from "./Footer";
 const Subscription = () => {
   return (
     <Fragment>
-      <section className={`${classes.section}`}>
+      <section id="абонемент_на_місяць" className={`${classes.section}`}>
         <Container>
           <h1 className="text-center">АБОНЕМЕНТ НА МІСЯЦЬ</h1>
           <Row>

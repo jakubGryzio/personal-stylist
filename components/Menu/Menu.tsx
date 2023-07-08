@@ -8,6 +8,7 @@ import closeMenuIcon from "../../public/close.svg";
 import aboutMe from "../../public/images/aboutMe.jpg";
 import services from "../../public/images/services.jpg";
 import contact from "../../public/images/contact.jpg";
+import Link from "next/link";
 
 const Menu = ({ showSlide, toggleSlide }: SlideProps) => {
   const [hide, setHide] = useState(false);
@@ -65,12 +66,15 @@ const Menu = ({ showSlide, toggleSlide }: SlideProps) => {
           <Container>
             <Row>
               <Col lg="6" md="6" className={`${classes.navigation}`}>
-                <p
-                  onMouseEnter={() => showHandler("aboutMe")}
-                  onMouseLeave={() => hideHandler()}
-                >
-                  ПРО МЕНЕ
-                </p>
+                <Link href="/#про_мене">
+                  <p
+                    onMouseEnter={() => showHandler("aboutMe")}
+                    onMouseLeave={() => hideHandler()}
+                    onClick={showedHandler}
+                  >
+                    ПРО МЕНЕ
+                  </p>
+                </Link>
                 <p
                   onMouseEnter={() => showHandler("services")}
                   onMouseLeave={() => hideHandler()}
@@ -81,12 +85,15 @@ const Menu = ({ showSlide, toggleSlide }: SlideProps) => {
                 >
                   ПОСЛУГИ
                 </p>
-                <p
-                  onMouseEnter={() => showHandler("contact")}
-                  onMouseLeave={() => hideHandler()}
-                >
-                  КОНТАКТИ
-                </p>
+                <Link href="/#контакти">
+                  <p
+                    onMouseEnter={() => showHandler("contact")}
+                    onMouseLeave={() => hideHandler()}
+                    onClick={showedHandler}
+                  >
+                    КОНТАКТИ
+                  </p>
+                </Link>
               </Col>
               {!showServices && (
                 <Col
@@ -130,11 +137,21 @@ const Menu = ({ showSlide, toggleSlide }: SlideProps) => {
                     hide ? classes.hide : classes.show
                   }`}
                 >
-                  <p>розбір гардеробу</p>
-                  <p>карта стилю</p>
-                  <p>капсульний гардероб</p>
-                  <p>стилізація на зйомку</p>
-                  <p>абонемент на місяць</p>
+                  <Link href="/#розбір_гардеробу">
+                    <p onClick={showedHandler}>розбір гардеробу</p>
+                  </Link>
+                  <Link href="/#карта_стилю">
+                    <p onClick={showedHandler}>карта стилю</p>
+                  </Link>
+                  <Link href="/#капсульний_гардероб">
+                    <p onClick={showedHandler}>капсульний гардероб</p>
+                  </Link>
+                  <Link href="/#стилізація_на_зйомку">
+                    <p onClick={showedHandler}>стилізація на зйомку</p>
+                  </Link>
+                  <Link href="/#абонемент_на_місяць">
+                    <p onClick={showedHandler}>абонемент на місяць</p>
+                  </Link>
                 </Col>
               )}
             </Row>

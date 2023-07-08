@@ -20,12 +20,11 @@
   row-gap: 3rem;
 }
 .description {
-  margin-top: 20px;
 }
 
 .description ul {
   margin-top: 0.56rem;
-  padding-right: 180px;
+  padding-right: 120px;
 }
 
 .description li {
@@ -34,7 +33,7 @@
   font-size: 1.1875rem;
   font-weight: 300;
   line-height: 1.6rem;
-  margin-bottom: 1.7rem;
+  margin-bottom: 1.3rem;
 }
 
 .description h2 {

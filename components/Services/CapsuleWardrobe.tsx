@@ -9,7 +9,7 @@ import Footer from "./Footer";
 const CapsuleWardrobe = () => {
   return (
     <Fragment>
-      <section className={`${classes.section}`}>
+      <section id="стилізація_на_зйомку" className={`${classes.section}`}>
         <Container>
           <h1 className="text-center">СТИЛІЗАЦІЯ ЗЙОМКИ</h1>
           <Row>

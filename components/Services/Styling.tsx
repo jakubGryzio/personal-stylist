@@ -9,7 +9,7 @@ import Footer from "./Footer";
 const Styling = () => {
   return (
     <Fragment>
-      <section className={`${classes.section}`}>
+      <section id="капсульний_гардероб" className={`${classes.section}`}>
         <Container>
           <h1 className="text-center">КАПСУЛЬНИЙ ГАРДЕРОБ</h1>
           <Row>
