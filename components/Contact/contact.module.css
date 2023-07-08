@@ -1,0 +1,133 @@
+.section {
+  background: #2d2814;
+  padding-top: 11rem !important;
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  row-gap: 2rem;
+  width: 55.8125rem;
+}
+
+.contact__item {
+  width: 55.8125rem;
+  height: 5.275rem;
+  background: #7c401b;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: row;
+  padding: 0;
+  color: #e3e3c5;
+  font-family: Montserrat;
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.contact__item:before {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+
+.contact h1 {
+  color: #d39c50 !important;
+  font-family: Montserrat;
+  font-size: 5rem;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: -1rem;
+  text-align: center;
+  margin-left: 20px;
+}
+
+.item__title {
+  max-width: 30%;
+  min-width: 30%;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: left;
+}
+
+.item__description {
+  max-width: 42%;
+  min-width: 42%;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: left;
+  font-weight: 300;
+}
+
+.form {
+  margin-top: 5.81rem;
+}
+
+.form h4 {
+  color: #d39c50 !important;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 2.5rem;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 1.87rem;
+}
+
+.form p {
+  color: #e3e3c5;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.form__section {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 2.75rem;
+  margin-top: 3.6rem;
+}
+
+.form__group {
+  width: 60%;
+}
+
+.form__group input,
+.form__group textarea {
+  width: 100%;
+  background: none;
+  border: none;
+  border-bottom: 3px solid #7c401b;
+  color: #e3e3c5;
+  font-family: Montserrat;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: normal;
+  resize: none;
+}
+
+.form__group input:focus,
+.form__group textarea:focus {
+  outline: none;
+}
+
+.form__group input {
+  padding-bottom: 10px;
+}
+
+.form__group input::placeholder,
+.form__group textarea::placeholder {
+  color: rgba(227, 227, 197, 0.51);
+  font-family: Montserrat;
+  font-size: 0.9rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
