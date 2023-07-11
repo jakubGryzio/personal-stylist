@@ -43,6 +43,14 @@
   background: none;
 }
 
+.social {
+  transition: ease-in-out 400ms;
+}
+
+.social:hover {
+  transform: scale(0.9);
+}
+
 .nav__menu {
   display: flex;
   align-items: center;
@@ -114,22 +122,6 @@
 
 .hide {
   animation: hide 0.5s ease-in-out;
-}
-
-.up {
-  transition: ease-in-out 500ms;
-}
-
-.up:hover {
-  transform: translateY(-5px);
-}
-
-.scale {
-  transition: ease-in-out 400ms;
-}
-
-.scale:hover {
-  transform: scale(0.9);
 }
 
 @keyframes show {

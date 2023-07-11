@@ -46,8 +46,10 @@ const Menu = ({ showSlide, toggleSlide }: SlideProps) => {
           <Container>
             <div className={`${classes.menu__wrapper}`}>
               <div className={`${classes.name}`}>
-                <p>Устина Скрипець</p>
-                <p style={{ color: "#D39C50" }}>персональний стиліст</p>
+                <Link onClick={showedHandler} href="/">
+                  <p>Устина Скрипець</p>
+                  <p style={{ color: "#D39C50" }}>персональний стиліст</p>
+                </Link>
               </div>
               <div className={`${classes.nav__menu}`}>
                 <div className={`${classes.menu}`}>
@@ -66,7 +68,7 @@ const Menu = ({ showSlide, toggleSlide }: SlideProps) => {
           <Container>
             <Row>
               <Col lg="6" md="6" className={`${classes.navigation}`}>
-                <Link href="/#про_мене">
+                <Link href="/#about_me">
                   <p
                     onMouseEnter={() => showHandler("aboutMe")}
                     onMouseLeave={() => hideHandler()}
@@ -85,7 +87,7 @@ const Menu = ({ showSlide, toggleSlide }: SlideProps) => {
                 >
                   ПОСЛУГИ
                 </p>
-                <Link href="/#контакти">
+                <Link href="/#contacts">
                   <p
                     onMouseEnter={() => showHandler("contact")}
                     onMouseLeave={() => hideHandler()}
@@ -137,19 +139,19 @@ const Menu = ({ showSlide, toggleSlide }: SlideProps) => {
                     hide ? classes.hide : classes.show
                   }`}
                 >
-                  <Link href="/#розбір_гардеробу">
+                  <Link href="/#wardrobe_analysis">
                     <p onClick={showedHandler}>розбір гардеробу</p>
                   </Link>
-                  <Link href="/#карта_стилю">
+                  <Link href="/#style_card">
                     <p onClick={showedHandler}>карта стилю</p>
                   </Link>
-                  <Link href="/#капсульний_гардероб">
+                  <Link href="/#capsule_wardrobe">
                     <p onClick={showedHandler}>капсульний гардероб</p>
                   </Link>
-                  <Link href="/#стилізація_на_зйомку">
+                  <Link href="/#stylization_of_shooting">
                     <p onClick={showedHandler}>стилізація на зйомку</p>
                   </Link>
-                  <Link href="/#абонемент_на_місяць">
+                  <Link href="/#subscription">
                     <p onClick={showedHandler}>абонемент на місяць</p>
                   </Link>
                 </Col>

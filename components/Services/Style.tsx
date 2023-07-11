@@ -9,15 +9,15 @@ import Footer from "./Footer";
 const Style = () => {
   return (
     <Fragment>
-      <section id="карта_стилю" className={`${classes.section}`}>
+      <section id="style_card" className={`${classes.section}`}>
         <Container>
           <h1 className="text-center">КАРТА СТИЛЮ</h1>
           <Row>
-            <Col className={`${classes.image}`}>
+            <Col lg="6" md="6" className={`${classes.image}`}>
               <Image src={style1} alt="My values" priority />
               <Image src={style2} alt="My values" priority />
             </Col>
-            <Col className={`${classes.description}`}>
+            <Col lg="6" md="6" className={`${classes.description}`}>
               <h2>ДЛЯ КОГО ?</h2>
               <ul>
                 <li>

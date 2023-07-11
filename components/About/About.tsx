@@ -6,7 +6,7 @@ import classes from "./about.module.css";
 
 const About = () => {
   return (
-    <section id="про_мене" className={`${classes.section}`}>
+    <section id="about_me" className={`${classes.section}`}>
       <Container>
         <Row>
           <Col lg="6" md="6" className={`${classes.about__image}`}>

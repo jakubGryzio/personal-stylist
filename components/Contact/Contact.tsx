@@ -4,7 +4,7 @@ import classes from "./contact.module.css";
 
 const Contact = () => {
   return (
-    <section id="контакти" className={`${classes.section}`}>
+    <section id="contacts" className={`${classes.section}`}>
       <Row className={`${classes.contact}`}>
         <h1>КОНТАКТИ</h1>
         <div className={`${classes.contact__item}`}>
@@ -31,7 +31,11 @@ const Contact = () => {
               <input type="text" placeholder="Ім’я" required></input>
             </div>
             <div className={classes.form__group}>
-              <input type="tel" placeholder="Телефон" required></input>
+              <input
+                type="text"
+                placeholder="Нікнейм у інстаграмі/телеграмі"
+                required
+              ></input>
             </div>
             <div className={classes.form__group}>
               <input type="email" placeholder="Email"></input>
@@ -39,6 +43,7 @@ const Contact = () => {
             <div className={classes.form__group}>
               <textarea rows={5} placeholder="Коментар"></textarea>
             </div>
+            <button>НАДІСЛАТИ</button>
           </form>
         </Row>
       </Container>

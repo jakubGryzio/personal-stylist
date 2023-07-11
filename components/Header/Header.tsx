@@ -14,8 +14,10 @@ const Header = ({ toggleSlide }: SlideProps) => {
       <Container>
         <div className={`${classes.nav__wrapper}`}>
           <div className={`${classes.name}`}>
-            <p>Устина Скрипець</p>
-            <p style={{ color: "#D39C50" }}>персональний стиліст</p>
+            <Link href="/">
+              <p>Устина Скрипець</p>
+              <p style={{ color: "#D39C50" }}>персональний стиліст</p>
+            </Link>
           </div>
           <div className={`${classes.nav__menu}`}>
             <div className="d-flex alin-items-center bg-transparent gap-3 mb-0">
@@ -25,19 +27,23 @@ const Header = ({ toggleSlide }: SlideProps) => {
                 target="_blank"
               >
                 <Image
-                  className={`${classes.up}`}
+                  className={`${classes.social}`}
                   priority
                   src={telegramIcon}
                   alt="Follow me on Telegram"
                 />
               </Link>
               <Link
-                className={`${classes.scale}`}
                 href="https://www.tiktok.com/@ustyna.skrypets"
                 rel="noopener noreferrer"
                 target="_blank"
               >
-                <Image priority src={tikTokIcon} alt="Follow me on TikTok" />
+                <Image
+                  className={`${classes.social}`}
+                  priority
+                  src={tikTokIcon}
+                  alt="Follow me on TikTok"
+                />
               </Link>
               <Link
                 href="https://www.instagram.com/ustyna.skrypets?igshid=Y2IzZGU1MTFhOQ=="
@@ -45,6 +51,7 @@ const Header = ({ toggleSlide }: SlideProps) => {
                 target="_blank"
               >
                 <Image
+                  className={`${classes.social}`}
                   priority
                   src={instagramIcon}
                   alt="Follow me on Instagram"

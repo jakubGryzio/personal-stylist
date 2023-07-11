@@ -1,8 +1,8 @@
 import React, { Fragment } from "react";
 import Wardrobe from "./Wardrobe";
 import Style from "./Style";
-import Styling from "./Styling";
-import CapsuleWardrobe from "./CapsuleWardrobe";
+import Styling from "./CapsuleWardrobe";
+import CapsuleWardrobe from "./Styling";
 import Subscription from "./Subscription";
 
 const Services = () => {

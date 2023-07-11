@@ -2,7 +2,6 @@ import { NextPage } from "next";
 import Image from "next/image";
 import intro from "../../public/images/intro.jpg";
 import classes from "./intro.module.css";
-import { Fragment } from "react";
 import { Col, Container, Row } from "reactstrap";
 
 const Intro: NextPage = () => {

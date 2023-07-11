@@ -9,15 +9,15 @@ import Footer from "./Footer";
 const Subscription = () => {
   return (
     <Fragment>
-      <section id="абонемент_на_місяць" className={`${classes.section}`}>
+      <section id="subscription" className={`${classes.section}`}>
         <Container>
           <h1 className="text-center">АБОНЕМЕНТ НА МІСЯЦЬ</h1>
           <Row>
-            <Col className={`${classes.image}`}>
+            <Col lg="6" md="6" className={`${classes.image}`}>
               <Image src={subscription} alt="My values" priority />
               <Image src={subscription2} alt="My values" priority />
             </Col>
-            <Col className={`${classes.description}`}>
+            <Col lg="6" md="6" className={`${classes.description}`}>
               <h2>ДЛЯ КОГО ?</h2>
               <ul>
                 <li>
