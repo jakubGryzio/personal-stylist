@@ -143,6 +143,8 @@
   font-size: 1.5rem;
   font-weight: 500;
   transition: ease-in-out 300ms;
+  border: none;
+  outline: none;
 }
 
 .form__section button:hover {
