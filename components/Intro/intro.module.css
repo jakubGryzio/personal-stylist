@@ -59,3 +59,42 @@
   font-weight: 200;
   line-height: normal;
 }
+
+@media only screen and (max-width: 500px) {
+  .intro__title {
+    position: absolute;
+    left: 42%;
+    top: 18%;
+    text-align: right;
+    row-gap: 1.1rem;
+  }
+
+  .intro__name {
+    margin-left: 0 !important;
+  }
+
+  .intro__name h1 {
+    font-size: 3rem;
+    line-height: 3.2rem;
+    font-weight: 400;
+  }
+
+  .intro__title p {
+    font-size: 1.35rem;
+    color: #d39c50;
+    font-family: Academy;
+  }
+
+  .intro__descritpion {
+    position: absolute;
+    margin-left: 0 !important;
+    margin-bottom: 0 !important;
+    left: 28%;
+    top: 70%;
+    text-align: right;
+  }
+
+  .intro__image {
+    content: url("../../public/images/intro-sm.jpg");
+  }
+}

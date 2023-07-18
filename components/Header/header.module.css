@@ -3,7 +3,6 @@
   height: 94px;
   border-bottom: 1px solid #d39c50;
   line-height: 90px;
-  overflow: hidden;
   background: rgba(45, 40, 20, 0.71) !important;
   z-index: 999;
 }
@@ -141,5 +140,24 @@
 
   to {
     opacity: 0%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .header {
+    max-width: 500px;
+  }
+
+  .nav__wrapper {
+    display: flex;
+    align-items: center;
+    background: none;
+    padding: 0 !important;
+    margin-top: 15px;
+  }
+
+  .name p {
+    font-size: 1.2rem;
+    line-height: 0 !important;
   }
 }
