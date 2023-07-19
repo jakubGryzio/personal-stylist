@@ -18,30 +18,65 @@
 
 .image__nw {
   position: absolute;
-  top: -12.94rem;
-  left: 15.44rem;
+  top: -100%;
+  left: 20%;
 }
 
 .image__ne {
   position: absolute;
-  top: -18.94rem;
-  right: 15.44rem;
+  top: -140%;
+  right: 20%;
 }
 
 .image__sw {
   position: absolute;
-  bottom: -8.94rem;
-  left: 14.44rem;
+  bottom: -80%;
+  left: 18%;
 }
 
 .image__se {
   position: absolute;
-  bottom: -5.94rem;
-  right: 14.44rem;
+  bottom: -45%;
+  right: 18%;
 }
 
 .image__arrow {
   position: absolute;
   left: 48%;
   top: 155%;
+}
+
+@media only screen and (max-width: 768px) {
+  .row h1 {
+    font-size: 2.8rem;
+    line-height: 4.65rem;
+  }
+
+  .row img {
+    transform: scale(0.7);
+  }
+
+  .image__nw {
+    left: 0%;
+  }
+
+  .image__ne {
+    top: -160%;
+    right: -4%;
+  }
+
+  .image__sw {
+    bottom: -105%;
+    left: 0%;
+  }
+
+  .image__se {
+    bottom: -65%;
+    right: 0%;
+  }
+
+  .image__arrow {
+    left: 45%;
+    top: 200%;
+  }
 }

@@ -9,7 +9,7 @@ const Intro: NextPage = () => {
     <section className={`${classes.section}`}>
       <Image
         className={`${classes.intro__image}`}
-        priority
+        priority={true}
         src={intro}
         alt="Intro"
       />

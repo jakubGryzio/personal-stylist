@@ -60,10 +60,10 @@
   line-height: normal;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 768px) {
   .intro__title {
     position: absolute;
-    left: 42%;
+    right: 7%;
     top: 18%;
     text-align: right;
     row-gap: 1.1rem;
@@ -89,9 +89,13 @@
     position: absolute;
     margin-left: 0 !important;
     margin-bottom: 0 !important;
-    left: 28%;
+    right: 7%;
     top: 70%;
     text-align: right;
+  }
+
+  .intro__descritpion p {
+    font-size: 1.1rem;
   }
 
   .intro__image {

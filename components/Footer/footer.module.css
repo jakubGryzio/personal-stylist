@@ -8,9 +8,3 @@
   font-size: 0.85rem;
   padding-top: 15px;
 }
-
-@media only screen and (max-width: 768px) {
-  .footer__top {
-    display: none;
-  }
-}

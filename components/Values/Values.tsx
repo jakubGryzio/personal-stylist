@@ -39,11 +39,7 @@ const Values = () => {
               </li>
             </ol>
           </Col>
-          <Col
-            lg="5"
-            md="6"
-            className="d-flex justify-content-start align-items-center mb-5"
-          >
+          <Col lg="5" md="6" className={classes.values__image}>
             <Image src={values} alt="My values" priority />
           </Col>
         </Row>

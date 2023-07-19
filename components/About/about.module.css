@@ -44,3 +44,37 @@
   font-style: normal;
   line-height: 2.3125rem;
 }
+
+@media only screen and (max-width: 768px) {
+  .section {
+    padding-top: 13rem !important;
+    padding-bottom: 3rem !important;
+  }
+
+  .about__image {
+    justify-content: center;
+    padding: 0 !important;
+    margin-bottom: -4rem;
+  }
+
+  .about__image img {
+    transform: scale(0.8);
+  }
+
+  .about__list {
+    row-gap: 0 !important;
+  }
+
+  .about__list h1 {
+    position: relative;
+    top: -135%;
+    text-align: center;
+    font-size: 2.2rem;
+  }
+
+  .about__list ul {
+    padding-left: 35px;
+    padding-right: 5px;
+    font-size: 0.85rem;
+  }
+}

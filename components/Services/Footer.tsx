@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <footer className={`${classes.footer}`}>
       <Container>
-        <Row className={`${classes.row}`}>
+        <Row className={`${classes.footer__row}`}>
           <Col lg="6" md="6">
             <h2>КОНСУЛЬТАЦІЯ</h2>
             <ul>

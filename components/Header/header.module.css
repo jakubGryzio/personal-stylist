@@ -143,9 +143,9 @@
   }
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 768px) {
   .header {
-    max-width: 500px;
+    min-width: 411px;
   }
 
   .nav__wrapper {
@@ -157,7 +157,11 @@
   }
 
   .name p {
-    font-size: 1.2rem;
-    line-height: 0 !important;
+    font-size: 1rem;
+    line-height: 0.6rem;
+  }
+
+  .nav__menu {
+    column-gap: 2rem;
   }
 }
