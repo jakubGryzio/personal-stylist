@@ -87,6 +87,31 @@ const Menu = ({ showSlide, toggleSlide }: SlideProps) => {
                 >
                   ПОСЛУГИ
                 </p>
+                {showServices && (
+                  <Col
+                    lg="6"
+                    md="6"
+                    className={`${classes.menu__services__sm} ${
+                      hide ? classes.hide : classes.show
+                    }`}
+                  >
+                    <Link href="/#wardrobe_analysis">
+                      <p onClick={showedHandler}>розбір гардеробу</p>
+                    </Link>
+                    <Link href="/#style_card">
+                      <p onClick={showedHandler}>карта стилю</p>
+                    </Link>
+                    <Link href="/#capsule_wardrobe">
+                      <p onClick={showedHandler}>капсульний гардероб</p>
+                    </Link>
+                    <Link href="/#stylization_of_shooting">
+                      <p onClick={showedHandler}>стилізація на зйомку</p>
+                    </Link>
+                    <Link href="/#subscription">
+                      <p onClick={showedHandler}>абонемент на місяць</p>
+                    </Link>
+                  </Col>
+                )}
                 <Link href="/#contacts">
                   <p
                     onMouseEnter={() => showHandler("contact")}
