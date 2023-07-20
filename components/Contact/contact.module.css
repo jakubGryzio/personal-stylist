@@ -172,11 +172,11 @@
     margin: 0;
     justify-content: flex-start;
     padding-left: -30px;
-    font-size: 1.25rem;
+    font-size: 4vw;
   }
 
   .contact__item:before {
-    width: 8%;
+    width: 12%;
   }
 
   .item__description {

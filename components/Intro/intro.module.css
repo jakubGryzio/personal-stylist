@@ -100,5 +100,6 @@
 
   .intro__image {
     content: url("../../public/images/intro-sm.jpg");
+    object-fit: contain;
   }
 }
