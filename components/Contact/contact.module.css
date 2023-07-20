@@ -170,8 +170,13 @@
     height: 2.5rem;
     width: 100%;
     margin: 0;
-    justify-content: center;
+    justify-content: flex-start;
+    padding-left: -30px;
     font-size: 1.25rem;
+  }
+
+  .contact__item:before {
+    width: 8%;
   }
 
   .item__description {

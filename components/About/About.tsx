@@ -8,6 +8,9 @@ const About = () => {
   return (
     <section id="about_me" className={`${classes.section}`}>
       <Container>
+        <div className={classes.about__title_sm}>
+          <h1>Я ПЕРЕКОНАНА, ЩО</h1>
+        </div>
         <Row>
           <Col lg="6" md="6" className={`${classes.about__image}`}>
             <Image src={about} alt="About me"></Image>

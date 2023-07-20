@@ -12,6 +12,12 @@ const Values = () => {
             <div className={`${classes.values__list_title}`}>
               <h1>МОЇ ЦІННОСТІ У РОБОТІ З ВАМИ </h1>
             </div>
+            <Image
+              className={classes.values__image_sm}
+              src={values}
+              alt="My values"
+              priority
+            />
             <ol>
               <li>
                 <p>

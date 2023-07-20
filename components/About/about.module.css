@@ -16,6 +16,10 @@
   row-gap: 9.56rem;
 }
 
+.about__title_sm {
+  display: none;
+}
+
 .about__list ul {
   list-style: none;
   padding: 0;
@@ -54,11 +58,11 @@
   .about__image {
     justify-content: center;
     padding: 0 !important;
-    margin-bottom: -4rem;
+    margin-bottom: -1rem;
   }
 
   .about__image img {
-    transform: scale(0.8);
+    transform: scale(0.75);
   }
 
   .about__list {
@@ -66,10 +70,18 @@
   }
 
   .about__list h1 {
-    position: relative;
-    top: -135%;
+    display: none;
+  }
+
+  .about__title_sm {
+    display: block;
+    color: #e3e3c5;
+    font-size: 3.4375rem;
+    font-family: Academy;
+    font-style: normal;
+    line-height: 2.3125rem;
     text-align: center;
-    font-size: 2.2rem;
+    margin-bottom: -1.5rem;
   }
 
   .about__list ul {
