@@ -5,8 +5,8 @@ import { EmailPayload } from "../interfaces/emailPayload";
 const serviceOptions = {
   service: "gmail",
   auth: {
-    user: process.env.EMAIL,
-    pass: process.env.PASSWORD,
+    user: process.env.NEXT_PUBLIC_EMAIL,
+    pass: process.env.NEXT_PUBLIC_PASSWORD,
   },
 };
 

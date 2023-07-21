@@ -10,7 +10,7 @@ export default async function handler(
 ) {
   const body: FormProps = JSON.parse(req.body);
   await sendEmail({
-    to: process.env.EMAIL_RECIPIENT!,
+    to: process.env.NEXT_PUBLIC_EMAIL_RECIPIENT!,
     subject: "Contact - Personal stylist",
     html: render(ContactEmail(body)),
   });
