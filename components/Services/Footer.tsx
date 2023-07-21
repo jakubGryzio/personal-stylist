@@ -9,7 +9,7 @@ const Footer = () => {
     <footer className={`${classes.footer}`}>
       <Container>
         <Row className={`${classes.footer__row}`}>
-          <Col lg="6" md="6">
+          <Col lg="6" md="12">
             <h2>КОНСУЛЬТАЦІЯ</h2>
             <ul>
               <li>
@@ -24,7 +24,7 @@ const Footer = () => {
               </li>
             </ul>
           </Col>
-          <Col lg="6" md="6" className={`${classes.footer__image}`}>
+          <Col lg="6" md="2" className={`${classes.footer__image}`}>
             <Image src={footer} alt="Footer" priority />
           </Col>
         </Row>

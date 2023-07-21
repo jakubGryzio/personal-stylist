@@ -49,6 +49,24 @@
   line-height: 2.3125rem;
 }
 
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .about__image {
+    padding-right: 0;
+  }
+
+  .about__image img {
+    transform: scale(0.8);
+  }
+
+  .about__list {
+    row-gap: 3rem;
+  }
+
+  .about__list h1 {
+    font-size: 2.4375rem;
+  }
+}
+
 @media only screen and (max-width: 768px) {
   .section {
     padding-top: 13rem !important;

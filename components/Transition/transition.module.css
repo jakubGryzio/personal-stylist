@@ -46,6 +46,33 @@
   top: 155%;
 }
 
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .image__nw {
+    left: 0%;
+    top: -80%;
+  }
+
+  .image__ne {
+    top: -140%;
+    right: -2%;
+  }
+
+  .image__sw {
+    bottom: -90%;
+    left: 0%;
+  }
+
+  .image__se {
+    bottom: -55%;
+    right: 5%;
+  }
+
+  .image__arrow {
+    left: 45%;
+    top: 200%;
+  }
+}
+
 @media only screen and (max-width: 768px) {
   .section {
     padding-top: 12rem !important;

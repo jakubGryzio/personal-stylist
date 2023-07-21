@@ -44,7 +44,7 @@
   margin-bottom: 2.3rem;
 }
 
-.values__list_title {
+.values__list_title h1 {
   font-size: 3.4375rem;
   font-family: Academy;
   font-style: normal;
@@ -67,6 +67,37 @@
   width: 27.6875rem;
 }
 
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .values__image {
+    transform: scale(0.8);
+    margin-bottom: 0;
+  }
+
+  .values__list ol {
+    padding: 0;
+    margin: 0;
+    font-size: 1.8rem;
+  }
+
+  .values__list li p {
+    font-size: 0.975rem;
+    line-height: 1.8rem;
+    margin-bottom: 2rem;
+    margin-left: 6.06rem;
+    width: 15rem;
+  }
+
+  .values__list_title {
+    width: 35rem;
+    margin-bottom: 2.3rem;
+  }
+
+  .values__list_title h1 {
+    margin-left: 8rem;
+    font-size: 1.8rem;
+  }
+}
+
 @media only screen and (max-width: 768px) {
   .section {
     padding-top: 1.25rem !important;
@@ -74,7 +105,7 @@
   }
 
   .values__list_title {
-    font-size: 2.3rem;
+    font-size: 2rem;
     text-align: center;
     width: 20rem;
     margin: 0;
@@ -82,6 +113,7 @@
 
   .values__list_title h1 {
     line-height: 2.5rem;
+    font-size: 1.8rem;
   }
 
   .values__image {

@@ -60,6 +60,44 @@
   line-height: normal;
 }
 
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .intro__name h1 {
+    font-size: 4.2rem;
+    line-height: 4rem;
+    font-weight: 400;
+  }
+
+  .intro__title p {
+    font-size: 1.8rem;
+    color: #d39c50;
+    font-family: Academy;
+  }
+
+  .intro__descritpion {
+    position: absolute;
+    margin-left: 0 !important;
+    margin-bottom: 0 !important;
+    left: 3%;
+    top: 75%;
+    text-align: right;
+  }
+
+  .intro__title {
+    position: absolute;
+    right: 5%;
+    top: 18%;
+    text-align: right;
+    row-gap: 1.1rem;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .intro__image {
+    content: url("../../public/images/intro-sm.jpg");
+    object-fit: contain;
+  }
+}
+
 @media only screen and (max-width: 768px) {
   .intro__title {
     position: absolute;
@@ -96,10 +134,5 @@
 
   .intro__descritpion p {
     font-size: 1.1rem;
-  }
-
-  .intro__image {
-    content: url("../../public/images/intro-sm.jpg");
-    object-fit: contain;
   }
 }
