@@ -16,7 +16,7 @@ export const sendEmail = async (data: EmailPayload) => {
   });
 
   return await transporter.sendMail({
-    from: process.env.EMAIL,
+    from: process.env.NEXT_PUBLIC_EMAIL,
     ...data,
   });
 };
