@@ -34,7 +34,7 @@ const Contact = () => {
     };
 
     try {
-      const response = await fetch("/api/send-email", {
+      await fetch("/api/send-email", {
         method: "POST",
         body: JSON.stringify(data),
       });
@@ -44,6 +44,11 @@ const Contact = () => {
       console.error(error);
       setSuccessSending(false);
     }
+
+    nameInputElement.current!.value! = "";
+    socialInputElement.current!.value! = "";
+    emailInputElement.current!.value! = "";
+    commentInputElement.current!.value! = "";
   };
 
   return (
@@ -118,14 +123,9 @@ const Contact = () => {
             onClose={handleClose}
             severity="success"
             sx={{
-              // backgroundColor: "#d39c50",
-              // color: "#e3e3c5",
               fontWeight: "medium",
               fontFamily: "Montserrat",
               fontSize: "1rem",
-              // "& .MuiAlert-icon": {
-              //   color: "#e3e3c5",
-              // },
             }}
           >
             Електронна пошта успішно надіслана
